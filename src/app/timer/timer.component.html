@@ -1,0 +1,7 @@
+<h1>Temporizador</h1>
+<div>
+  {{timer.getCount()}}
+  <input (click)="timer.start(1000)" type="number">
+  <button (click)="timer.reset()">reset</button>
+  <button (click)="timer.stop()">parar</button>
+</div>
